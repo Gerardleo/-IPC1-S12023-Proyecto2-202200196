@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="367" max="32767" attributes="0"/>
+              <Component id="subir" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="copia" min="-2" max="-2" attributes="0"/>
+                          <Component id="Jpg_a_bpm" min="-2" max="-2" attributes="0"/>
+                          <Component id="colores" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="modificar" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ByN" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="imagen" min="-2" pref="277" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="imagen" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="subir" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="Jpg_a_bpm" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="copia" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="colores" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="modificar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="ByN" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="116" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="imagen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Imagen"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="Jpg_a_bpm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="JPEG A BMMP Y VICEVERSA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="subir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccionar Imagen"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="subirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="copia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Copia JPEG"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="copiaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="colores">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ROJO VERDE AZUL SERPIA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="modificar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MODIFICAR IMAGEN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ByN">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Blanco y negro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ByNActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
